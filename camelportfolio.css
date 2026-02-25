@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Top Header */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: rgb(139, 136, 136);
+    
+    
+}
+
+.social-icons i {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    min-height: 80vh;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background: white;
+}
+
+.profile-pic {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    
+}
+ .profile-pic:hover{ 
+    transform: scale(1.5);
+    border-radius: 50px;
+    transition-duration:2s;
+    
+    
+} 
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar li.active {
+    background-color: #90E0EF;
+}
+
+.quote {
+    margin-top: 50px;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* Main Content Styling */
+.content {
+    flex: 1;
+    padding: 40px;
+    background: white;
+    border-left: 1px solid #eee;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* Skills Table */
+ 
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.haai :hover{
+   transform: scale(1.5);
+   color: aqua;
+   transition-duration:2s;
+} 
+
+.skills-table th {
+    background-color: #90E0EF;
+    color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.skills-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 0.9rem;
+}
+
+.skills-table i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+
+
+/* Form Styling */
+.contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-form button {
+    width: fit-content;
+    padding: 2px 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2D3142;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+} 
