@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #080101;
+    line-height: 1.6;
+    
+}
+
+.excellence-section {
+    background: linear-gradient(190deg, #4659a5dd 20%, #edcba9 100%); 
+    padding: 80px 20px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+
+.content-left {
+    flex: 1;
+    min-width: 300px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #00040c;
+    margin-bottom: 25px;
+    line-height: 1.2;
+}
+
+.description {
+    font-size: 1rem;
+    color: #0a0a0a;
+    max-width: 500px;
+}
+
+
+.awards-right {
+    flex: 1.2;
+    min-width: 300px;
+}
+
+.award-item {
+    display: flex;
+    align-items: center;
+    padding: 17px 0px;
+    border-bottom: 2px solid rgba(7, 0, 0, 0.174);
+    position: relative;
+}
+
+.award-item:last-child {
+    border-bottom: none;
+}
+
+.award-number {
+    font-weight: 700;
+    color: #d2a050;
+    margin-right: 30px;
+    font-size: 1.3rem;
+}
+
+.award-icon img {
+    width: 130px;
+    height: auto;
+    margin-right: 30px;
+    
+}
+
+.award-text h3 {
+    font-size: 1.2rem;
+    color: #1a2a4e;
+    margin-bottom: 8px;
+}
+
+.award-text p {
+    font-size: 0.95rem;
+    color: #080808;
+}
+
